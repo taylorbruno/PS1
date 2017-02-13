@@ -15,9 +15,7 @@ public class Rectangle {
 		return Width;
 	}
 	
-	public double Area()
-	{
-		// TODO Implement Area() function with the correct formula
-		return 0;
+	public double Area() {
+		return getLength()*getWidth();
 	}	
 }
